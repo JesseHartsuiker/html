@@ -170,3 +170,23 @@ footer {
     width: 100%;
     height: 100px;
 }
+@media all and (min-width: 550px) {
+    .content, #article\ 5, #article\ 6 {
+        width: 38%;
+        float: left;
+    }
+}
+
+@media all and (min-width: 920px) {
+    .content, #article\ 5, #article\ 6{
+        width: 30%;
+        float: left;
+    }
+}
+
+@media all and (min-width: 920px) {
+    #article\ 5, #article\ 6{
+        width: 20%;
+        float: left;
+    }
+}
